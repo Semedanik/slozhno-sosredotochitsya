@@ -3,11 +3,11 @@
 
 .page {
   color: var(--text-color, #f1b2ce);
-  font-family: var(--page-font-family, "IBM Plex mono", serif);
+  font-family: var(--main-font-family, "IBM Plex mono", serif);
   font-size: 18px;
   line-height: 23.4px;
-  background-color: var(--page-background-color, #000028);
-  background-image: var( --page-background-image, url("../images/cover-image.png"));
+  background-color: var(--bg-color, #000028);
+  background-image: var( --bg-img, url("../images/cover-image.png"));
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -143,7 +143,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color-o-40, #ff007040);
+  border-color: var(--secondary-color-2, #ff007040);
 }
 
 .header__theme-menu-button:focus {
@@ -274,7 +274,7 @@
 
 @media (min-width: 1024px) {
   .header__title {
-    text-shadow: 4px 4px 0 var(--color-purple-2, #ff0070);
+    text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
   }
 
   .section {
