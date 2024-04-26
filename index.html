@@ -8,6 +8,9 @@
     <meta name="color-scheme" content="dark light" />
 
     <link href="./images/favicon.ico" rel="icon" sizes="any" />
+    <link type="image/svg+xml" href="./images/favicon.svg" rel="icon" />
+    <link href="./images/mobile-icon.png" rel="apple-touch-icon" />
+    
     <link href="./fonts/fonts.css" rel="stylesheet" />
     <link href="./styles/variables.css" rel="stylesheet" />
     <link href="./styles/globals.css" rel="stylesheet" />
@@ -22,14 +25,14 @@
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
-            <button
+            <button type="button"
               class="header__theme-menu-button header__theme-menu-button_type_light"
             >
               День
             </button>
           </li>
           <li class="header__theme-menu-item">
-            <button
+            <button type="button"
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled
             >
@@ -37,7 +40,7 @@
             </button>
           </li>
           <li class="header__theme-menu-item">
-            <button
+            <button type="button"
               class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
               Неон
@@ -57,7 +60,7 @@
         <h2 class="title">Почему сосредоточиться так сложно</h2>
         <ul class="text-area__lists">
           <li>
-            <div class="text-area">
+            <article class="text-area">
               <h3 class="title title-decor">Многозадачность</h3>
               <p>
                 Особенно сложно сосредоточиться, когда задач много и все они —
@@ -69,10 +72,10 @@
                 «гормоны стресса». Из-за этого мы работаем невнимательно:
                 ошибаемся и быстро устаём.
               </p>
-            </div>
+            </article>
           </li>
           <li>
-            <div class="text-area">
+            <article class="text-area">
               <h3 class="title title-decor">Дофамин</h3>
               <p>
                 С гормонами стресса всё понятно, но дальше — ещё интереснее. В
@@ -85,7 +88,7 @@
                 замкнутый круг: чем больше отвлекаешься, тем больше удовольствия
                 получаешь.
               </p>
-            </div>
+            </article>
           </li>
         </ul>
       </section>
@@ -93,7 +96,7 @@
         <h2 class="title">Что снижает концентрацию внимания?</h2>
         <ul class="text-area__lists section-what_text-area__lists">
           <li>
-            <div class="text-area">
+            <article class="text-area">
               <h3 class="title title-decor">Многозадачность</h3>
               <p>
                 Как концентрация может снижаться из-за… концентрации? Любая
@@ -103,10 +106,10 @@
                 собранными всё время — невозможно. Концентрация — мышца, и она
                 может не выдержать, если не давать ей отдохнуть.
               </p>
-            </div>
+            </article>
           </li>
           <li>
-            <div class="text-area">
+            <article class="text-area">
               <h3 class="title title-decor">Еда</h3>
               <p>
                 «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -116,10 +119,10 @@
                 «быстрых углеводов» заканчивается, мы чувствуем усталость и
                 сонливость. И хотим ещё больше быстрых углеводов.
               </p>
-            </div>
+            </article>
           </li>
           <li>
-            <div class="text-area">
+            <article class="text-area">
               <h3 class="title title-decor">Гаджеты</h3>
               <p>
                 Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -131,7 +134,7 @@
                 гаджетах, тем больше времени затем нужно, чтобы вернуться к
                 работе.
               </p>
-            </div>
+            </article>
           </li>
         </ul>
       </section>
@@ -146,7 +149,7 @@
           </h3>
           <ul class="text-area__lists section-how_text-area__lists">
             <li>
-              <div class="text-area">
+              <article class="text-area">
                 <h4 class="title title-decor">Представьте небо и облака</h4>
                 <p>
                   Или листья в ручье. Тут дело в лёгкой медитации, которая
@@ -159,10 +162,10 @@
                   момент, а не волноваться о потенциальных проблемах из
                   будущего.
                 </p>
-              </div>
+              </article>
             </li>
             <li>
-              <div class="text-area">
+              <article class="text-area">
                 <h4 class="title title-decor">Включите музыку</h4>
                 <p>
                   Но не любую, и не любимую. Любимая может быть связана с
@@ -171,10 +174,10 @@
                   Можно вообще попробовать включить плейлист в «белым шумом» или
                   нейромузыкой.
                 </p>
-              </div>
+              </article>
             </li>
             <li>
-              <div class="text-area">
+              <article class="text-area">
                 <h4 class="title title-decor">Прогуляйтесь</h4>
                 <p>
                   Или даже пробегитесь. Лучше найти парк или лес: один
@@ -187,10 +190,10 @@
                   кислорода и он будет лучше работать. Но и простая
                   двадцатиминутная прогулка — тоже отличный вариант.
                 </p>
-              </div>
+              </article>
             </li>
             <li>
-              <div class="text-area">
+              <article class="text-area">
                 <h4 class="title title-decor">Хорошо ешьте</h4>
                 <p>
                   Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
@@ -199,10 +202,10 @@
                   чечевица, фасоль), коричневый рис, хлеб из цельнозерновой
                   пшеницы.
                 </p>
-              </div>
+              </article>
             </li>
             <li>
-              <div class="text-area">
+              <article class="text-area">
                 <h4 class="title title-decor">Читайте</h4>
                 <p>
                   Настоящие бумажные книги. Это правда помогает с концентрацией:
@@ -210,7 +213,7 @@
                   или даже секунд. А вот интересная книга способна затянуть и на
                   несколько часов и круто тренирует направленное внимание.
                 </p>
-              </div>
+              </article>
             </li>
           </ul>
         </div>
